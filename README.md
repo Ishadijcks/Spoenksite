@@ -59,14 +59,15 @@ Bovenin main.js staat `const CALENDAR_MARGIN = 3;` Dit geeft aan dat de margin t
 
 # Het online zetten van de Spoenksite
 
-Om de spoenksite bereikbaar te maken moet je via ftp bestanden sturen naar de punchserver. De makkelijkste manier om dit te doen is met het programma 'Filezilla' (https://filezilla-project.org/download.php?platform=win64)
+Om de spoenksite bereikbaar te maken moet je via ftp bestanden sturen naar de punchserver. De makkelijkste manier om dit te doen is met het programma [FileZilla](https://filezilla-project.org/download.php?platform=win64)
 
 Open het programma en gebruik de volgende inloggegevens:
+```
 host: sftp://spoenk.punch.tudelft.nl
 username: spoenksite
 password: <kijk in het agg of vraag de cia>
 port: 22
-
+```
 Na een tijdje zie je in de rechtertab 'remote site' de folderstructuur van de punchserver. Daaronder zie je de bestanden.
 Rechterklik op de www map en maak een nieuwe map genaamd <jouw_jaar> (bijvoorbeeld 2036).
 LET OP: vanaf de volgende stap zijn je bestanden voor iedereen te zien op de punchsite. 
@@ -93,7 +94,7 @@ Die beslissing is ~~volledig uit luiheid~~ zorgvuldig overwogen. Nu word je aang
 Het is maar een template, voel je vrij om zelf coole shit toe te voegen.
 
 ##### Ik heb zo iets cools gemaakt, dat ik dat eigenlijk wel toe wil voegen aan het template, mag dat?
-Maar natuurlijk, alles staat op GitHub, dus je kan gewoon [Hier](https://github.com/Ishadijcks/Spoenksite) een pull request aanmaken.
+Maar natuurlijk, alles staat op GitHub, dus je kan gewoon [hier](https://github.com/Ishadijcks/Spoenksite) een pull request aanmaken.
 
 ##### Ik heb nog meer vragen?
 Voor verdere vragen kan je een mailtje sturen naar cia@punch.tudelft.nl
